@@ -23,6 +23,7 @@
 		int result = userDAO.login(user.getUserID(),user.getUserPassword());
 		if(result == 1){
 			PrintWriter script = response.getWriter();
+			//텍스트 기반의 데이터 스트림을 제어하기 위해 호출 되는 클래스
 			script.println("<script>");
 			script.println("location.href = 'main.jsp'");
 			script.println("</script>");
