@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-
+<link rel="stylesheet" href="css/custom.css">
 <title>STH 게시판 웹 사이트</title>
 </head>
 <body>
